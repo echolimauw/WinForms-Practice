@@ -1,0 +1,6 @@
+C:\Users\Evan\source\repos\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.csprojAssemblyReference.cache
+C:\Users\Evan\source\repos\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.frmSnake.resources
+C:\Users\Evan\source\repos\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.csproj.GenerateResource.cache
+C:\Users\Evan\source\repos\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.AssemblyInfoInputs.cache
+C:\Users\Evan\source\repos\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.AssemblyInfo.cs
+C:\Users\Evan\source\repos\SnakeGame\SnakeGame\obj\Debug\netcoreapp3.1\SnakeGame.csproj.CoreCompileInputs.cache
