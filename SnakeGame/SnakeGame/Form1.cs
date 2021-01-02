@@ -42,7 +42,10 @@ namespace SnakeGame
 
         public frmSnake()
         {
+            rand = new Random();
             InitializeComponent();
+            gameBoardField = new GameBoardFields[11, 11];
+            snakeXY = new SnakeCoordinates[100];
         }
 
         private void frmSnake_Load(object sender, EventArgs e)
