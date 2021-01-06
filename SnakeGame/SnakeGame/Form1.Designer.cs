@@ -30,19 +30,19 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSnake));
-            this.GameBoard = new System.Windows.Forms.PictureBox();
+            this.picGameBoard = new System.Windows.Forms.PictureBox();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.imgList = new System.Windows.Forms.ImageList(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.GameBoard)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGameBoard)).BeginInit();
             this.SuspendLayout();
             // 
-            // GameBoard
+            // picGameBoard
             // 
-            this.GameBoard.Location = new System.Drawing.Point(12, 12);
-            this.GameBoard.Name = "GameBoard";
-            this.GameBoard.Size = new System.Drawing.Size(420, 420);
-            this.GameBoard.TabIndex = 0;
-            this.GameBoard.TabStop = false;
+            this.picGameBoard.Location = new System.Drawing.Point(12, 12);
+            this.picGameBoard.Name = "picGameBoard";
+            this.picGameBoard.Size = new System.Drawing.Size(420, 420);
+            this.picGameBoard.TabIndex = 0;
+            this.picGameBoard.TabStop = false;
             // 
             // timer
             // 
@@ -67,18 +67,18 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(444, 439);
-            this.Controls.Add(this.GameBoard);
+            this.Controls.Add(this.picGameBoard);
             this.Name = "frmSnake";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.frmSnake_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.GameBoard)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picGameBoard)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox GameBoard;
+        private System.Windows.Forms.PictureBox picGameBoard;
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.ImageList imgList;
     }

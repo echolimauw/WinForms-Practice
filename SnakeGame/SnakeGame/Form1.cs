@@ -50,8 +50,8 @@ namespace SnakeGame
 
         private void frmSnake_Load(object sender, EventArgs e)
         {
-            GameBoard.Image = new Bitmap(420, 420);
-            g = Graphics.FromImage(GameBoard.Image);
+            picGameBoard.Image = new Bitmap(420, 420);
+            g = Graphics.FromImage(picGameBoard.Image);
             g.Clear(Color.White);
 
             for(int i = 1; i <= 10; i++)
